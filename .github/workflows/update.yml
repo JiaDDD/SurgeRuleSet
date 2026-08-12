@@ -1,0 +1,132 @@
+name: Update Surge Rules
+
+on:
+  schedule:
+    # 每天 UTC 20:00 ≈ 北京时间 04:00
+    - cron: "0 20 * * *"
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate rules
+        id: generate
+        run: |
+          python scripts/generate.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Read report
+        id: report
+        run: |
+          if [ -f update_report.json ]; then
+            echo "has_report=true" >> $GITHUB_OUTPUT
+            # 提取关键信息
+            SUCCESS_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(len(d.get('success',[])))")
+            FAILED_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(len(d.get('failed',[])))")
+            PROXY_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(d.get('counts',{}).get('Proxy',0))")
+            DIRECT_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(d.get('counts',{}).get('Direct',0))")
+            REJECT_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(d.get('counts',{}).get('Reject',0))")
+            
+            echo "success_count=$SUCCESS_COUNT" >> $GITHUB_OUTPUT
+            echo "failed_count=$FAILED_COUNT" >> $GITHUB_OUTPUT
+            echo "proxy_count=$PROXY_COUNT" >> $GITHUB_OUTPUT
+            echo "direct_count=$DIRECT_COUNT" >> $GITHUB_OUTPUT
+            echo "reject_count=$REJECT_COUNT" >> $GITHUB_OUTPUT
+            
+            # 构建详情文本
+            python << 'EOF'
+          import json
+          with open("update_report.json") as f:
+              d = json.load(f)
+          
+          lines = []
+          if d.get("success"):
+              lines.append("✅ 成功源:")
+              for s in d["success"]:
+                  lines.append(f"  · {s['name']} ({s['category']}): {s['count']}条")
+          if d.get("failed"):
+              lines.append("❌ 失败源:")
+              for s in d["failed"]:
+                  lines.append(f"  · {s['name']}: {s.get('error','unknown')[:80]}")
+          
+          counts = d.get("counts", {})
+          lines.append("")
+          lines.append(f"📊 Proxy: {counts.get('Proxy',0)} | Direct: {counts.get('Direct',0)} | Reject: {counts.get('Reject',0)}")
+          
+          body = "\n".join(lines)
+          with open("bark_body.txt", "w") as f:
+              f.write(body)
+          EOF
+          else
+            echo "has_report=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.generate.outcome == 'success' || steps.generate.outcome == 'failure'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add rules/ modules/ update_report.json || true
+          
+          if git diff --staged --quiet; then
+            echo "无规则变化，跳过提交"
+            echo "changed=false" >> $GITHUB_ENV
+          else
+            git commit -m "chore: 自动更新规则 $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> $GITHUB_ENV
+          fi
+
+      - name: Send Bark notification
+        if: always()
+        env:
+          BARK_KEY: pGadi289ySKMevrWohfM4D
+        run: |
+          TITLE="SurgeRuleSet拉取情况"
+          
+          if [ "${{ steps.report.outputs.has_report }}" = "true" ]; then
+            SUCCESS=${{ steps.report.outputs.success_count }}
+            FAILED=${{ steps.report.outputs.failed_count }}
+            PROXY=${{ steps.report.outputs.proxy_count }}
+            DIRECT=${{ steps.report.outputs.direct_count }}
+            REJECT=${{ steps.report.outputs.reject_count }}
+            
+            if [ "$FAILED" = "0" ]; then
+              STATUS="✅ 成功"
+            else
+              STATUS="⚠️ 部分失败"
+            fi
+            
+            BODY=$(cat bark_body.txt 2>/dev/null || echo "Proxy: $PROXY | Direct: $DIRECT | Reject: $REJECT")
+            
+            # 限制长度，Bark 有内容长度限制
+            BODY=$(echo "$BODY" | head -c 1500)
+          else
+            STATUS="❌ 失败"
+            BODY="规则生成失败，请检查 Actions 日志"
+          fi
+          
+          # 发送 Bark（带 GitHub 图标）
+          curl -s -X POST "https://api.day.app/${BARK_KEY}" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{
+              \"title\": \"${TITLE}\",
+              \"body\": \"${STATUS}\n${BODY}\",
+              \"icon\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\",
+              \"group\": \"SurgeRuleSet\",
+              \"level\": \"active\"
+            }" || echo "Bark 推送失败"
