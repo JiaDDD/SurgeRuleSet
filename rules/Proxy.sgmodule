@@ -1,0 +1,6 @@
+#!name=SurgeRuleSet Proxy
+#!desc=需要代理的国外网站规则（GFW + 补充）
+#!category=SurgeRuleSet
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Zheng-JD/SurgeRuleSet/main/rules/Proxy.list,PROXY
