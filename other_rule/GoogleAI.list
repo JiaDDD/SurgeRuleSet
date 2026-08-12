@@ -1,0 +1,27 @@
+# Google AI（NotebookLM / Gemini / AI Studio）
+# 更新：2026-08
+
+# 产品入口
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
+
+# NotebookLM 后端
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
+DOMAIN-SUFFIX,app-analytics-services.com
+
+# 通用 Google 服务
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com
