@@ -1,7 +1,7 @@
 # SurgeRuleSet - REJECT
-# Updated: 2026-08-12 18:30:51 CST
-# Sources: pgl-yoyo, loyalsoldier-reject
-# Total: 163922
+# Updated: 2026-08-13 04:38:35 CST
+# Sources: loyalsoldier-reject, pgl-yoyo
+# Total: 163925
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,0.avmarket.rs
@@ -35802,6 +35802,7 @@ DOMAIN-SUFFIX,data.gubi.com
 DOMAIN-SUFFIX,data.guest.princess.com
 DOMAIN-SUFFIX,data.gxv.test.ajo.adobe.com
 DOMAIN-SUFFIX,data.habert-sa.fr
+DOMAIN-SUFFIX,data.hailuo.ai
 DOMAIN-SUFFIX,data.halcyontimber.co.uk
 DOMAIN-SUFFIX,data.hardrock.palladiumhotelgroup.com
 DOMAIN-SUFFIX,data.hashoutsoftapacptrsd.adobesandbox.com
@@ -105261,6 +105262,7 @@ DOMAIN-SUFFIX,rum-http-intake.logs.datadoghq.com
 DOMAIN-SUFFIX,rum-http-intake.logs.datadoghq.eu
 DOMAIN-SUFFIX,rum-ingress-coralogix.com
 DOMAIN-SUFFIX,rum-metrics.bunny.net
+DOMAIN-SUFFIX,rum-openway.guance.com
 DOMAIN-SUFFIX,rum-reporter-prod.exp.bn.nr
 DOMAIN-SUFFIX,rum.aliyuncs.com
 DOMAIN-SUFFIX,rum.api.intuit.com
@@ -146921,6 +146923,7 @@ DOMAIN-SUFFIX,twistads.com
 DOMAIN-SUFFIX,twistairclub.net.anwalt.de
 DOMAIN-SUFFIX,twistconcept.com
 DOMAIN-SUFFIX,twistloss.com
+DOMAIN-SUFFIX,twisty.net
 DOMAIN-SUFFIX,twistyscash.com
 DOMAIN-SUFFIX,twitchegotistical.com
 DOMAIN-SUFFIX,twitchindoor.best

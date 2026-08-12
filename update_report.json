@@ -11,31 +11,31 @@
       "count": 4373
     },
     {
-      "name": "loyalsoldier-direct",
-      "category": "Direct",
-      "count": 111415
-    },
-    {
       "name": "loyalsoldier-proxy",
       "category": "Proxy",
       "count": 26955
     },
     {
-      "name": "pgl-yoyo",
-      "category": "Reject",
-      "count": 3522
+      "name": "loyalsoldier-direct",
+      "category": "Direct",
+      "count": 111415
     },
     {
       "name": "loyalsoldier-reject",
       "category": "Reject",
       "count": 163897
+    },
+    {
+      "name": "pgl-yoyo",
+      "category": "Reject",
+      "count": 3525
     }
   ],
   "failed": [],
   "counts": {
     "Proxy": 26773,
     "Direct": 111415,
-    "Reject": 163922
+    "Reject": 163925
   },
-  "timestamp": "2026-08-12T18:30:49.466890+08:00"
+  "timestamp": "2026-08-13T04:38:31.588625+08:00"
 }
