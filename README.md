@@ -116,7 +116,7 @@ PROXY = select, 节点1, 节点2, 自动选择, DIRECT
 **Direct**
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) (`direct.txt`)
 
-**拒绝**
+**拦截**
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) (`reject.txt`)
 - [Peter Lowe's Ad and tracking server list](https://pgl.yoyo.org/adservers/)
 
