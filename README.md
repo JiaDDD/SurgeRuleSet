@@ -1,6 +1,9 @@
 # SurgeRuleSet
 
-自动拉取上游规则，经过去重、清洗、组合合并成聚合规则。每日更新 **Surge 规则集**，提供干净的 **Proxy / Direct / Reject** 三类规则，方便直接订阅使用。
+自动拉取上游规则，经过去重、清洗、组合合并成聚合规则。
+每日更新 **Surge 规则集**，提供干净的 **Proxy / Direct / Reject** 三类规则，方便直接订阅使用。
+
+为什么要做这个项目：依托Surge强大的性能，不想订阅很多条不同规则，直接一步到位，被墙的网站走代理，国内的网站走直连，去广告的规则直接拦截，大道至简！
 
 > 规则上游经过严格筛选，Reject 采用保守策略，尽量减少误杀。
 
@@ -8,11 +11,11 @@
 
 | 规则 | 用途 | 建议策略 |
 |------|------|----------|
-| **Proxy** | 国外被墙/需要代理的网站 | `PROXY` |
-| **Direct** | 国内可直连网站/直连即可 | `DIRECT` |
+| **代理** | 国外被墙/需要代理的网站 | `PROXY` |
+| **直连** | 国内可直连网站/直连即可 | `DIRECT` |
 | **拒绝** | 广告与追踪拦截（保守） | `REJECT` |
 
-**Apple / iCloud** 相关域名不强制放入 Direct，由你自行决定策略。
+**注意：Apple / iCloud** 相关域名不强制放入 Direct，由你自行决定策略。
 
 ---
 
@@ -113,7 +116,7 @@ PROXY = select, 节点1, 节点2, 自动选择, DIRECT
 **Direct**
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) (`direct.txt`)
 
-**Reject**
+**拒绝**
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) (`reject.txt`)
 - [Peter Lowe's Ad and tracking server list](https://pgl.yoyo.org/adservers/)
 
@@ -123,9 +126,7 @@ PROXY = select, 节点1, 节点2, 自动选择, DIRECT
 
 ## 更新机制
 
-- 每天通过 GitHub Actions 自动更新
-- 更新结果会通过 Bark 推送到手机
-- 也可在 Actions 页面手动触发
+- 每天通过 GitHub Actions 自动更新，保持规则最新。
 
 ---
 
