@@ -4,7 +4,7 @@ on:
   schedule:
     # 每天 UTC 20:00 ≈ 北京时间 04:00
     - cron: "0 20 * * *"
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,8 +25,7 @@ jobs:
 
       - name: Generate rules
         id: generate
-        run: |
-          python scripts/generate.py
+        run: python scripts/generate.py
         continue-on-error: true
 
       - name: Read report
@@ -34,40 +33,31 @@ jobs:
         run: |
           if [ -f update_report.json ]; then
             echo "has_report=true" >> $GITHUB_OUTPUT
-            SUCCESS_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(len(d.get('success',[])))")
-            FAILED_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(len(d.get('failed',[])))")
-            PROXY_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(d.get('counts',{}).get('Proxy',0))")
-            DIRECT_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(d.get('counts',{}).get('Direct',0))")
-            REJECT_COUNT=$(python -c "import json; d=json.load(open('update_report.json')); print(d.get('counts',{}).get('Reject',0))")
-            
-            echo "success_count=$SUCCESS_COUNT" >> $GITHUB_OUTPUT
-            echo "failed_count=$FAILED_COUNT" >> $GITHUB_OUTPUT
-            echo "proxy_count=$PROXY_COUNT" >> $GITHUB_OUTPUT
-            echo "direct_count=$DIRECT_COUNT" >> $GITHUB_OUTPUT
-            echo "reject_count=$REJECT_COUNT" >> $GITHUB_OUTPUT
-            
+            python -c "
+          import json
+          d = json.load(open('update_report.json'))
+          print(f\"success_count={len(d.get('success',[]))}\")
+          print(f\"failed_count={len(d.get('failed',[]))}\")
+          print(f\"proxy_count={d.get('counts',{}).get('Proxy',0)}\")
+          print(f\"direct_count={d.get('counts',{}).get('Direct',0)}\")
+          print(f\"reject_count={d.get('counts',{}).get('Reject',0)}\")
+          " >> $GITHUB_OUTPUT
+
             python << 'EOF'
           import json
-          with open("update_report.json") as f:
-              d = json.load(f)
-          
+          d = json.load(open("update_report.json"))
           lines = []
           if d.get("success"):
               lines.append("✅ 成功源:")
               for s in d["success"]:
-                  lines.append(f"  · {s['name']} ({s['category']}): {s['count']}条")
+                  lines.append(f"· {s['name']} ({s['category']}): {s['count']}条")
           if d.get("failed"):
               lines.append("❌ 失败源:")
               for s in d["failed"]:
-                  lines.append(f"  · {s['name']}: {s.get('error','unknown')[:80]}")
-          
+                  lines.append(f"· {s['name']}: {s.get('error','')[:60]}")
           counts = d.get("counts", {})
-          lines.append("")
-          lines.append(f"📊 Proxy: {counts.get('Proxy',0)} | Direct: {counts.get('Direct',0)} | Reject: {counts.get('Reject',0)}")
-          
-          body = "\n".join(lines)
-          with open("bark_body.txt", "w") as f:
-              f.write(body)
+          lines.append(f"📊 Proxy:{counts.get('Proxy',0)} Direct:{counts.get('Direct',0)} Reject:{counts.get('Reject',0)}")
+          open("bark_body.txt","w").write("\n".join(lines))
           EOF
           else
             echo "has_report=false" >> $GITHUB_OUTPUT
@@ -78,18 +68,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 清理可能误放在 rules 目录下的 sgmodule
           rm -f rules/*.sgmodule || true
-          
           git add rules/ modules/ update_report.json || true
-          
           if git diff --staged --quiet; then
             echo "无规则变化，跳过提交"
           else
             git commit -m "chore: 自动更新规则 $(date -u +%Y-%m-%d)"
-            
-            # 先拉取再推送，避免冲突
             git pull --rebase origin main || true
             git push origin HEAD:main
           fi
@@ -102,29 +86,24 @@ jobs:
           TITLE="SurgeRuleSet拉取情况"
           
           if [ "${{ steps.report.outputs.has_report }}" = "true" ]; then
-            FAILED=${{ steps.report.outputs.failed_count }}
-            
-            if [ "$FAILED" = "0" ]; then
+            if [ "${{ steps.report.outputs.failed_count }}" = "0" ]; then
               STATUS="✅ 成功"
             else
               STATUS="⚠️ 部分失败"
             fi
-            
             BODY=$(cat bark_body.txt 2>/dev/null || echo "规则已更新")
-            BODY=$(echo "$BODY" | head -c 1500)
           else
             STATUS="❌ 失败"
             BODY="规则生成失败，请检查 Actions 日志"
           fi
           
-          curl -s -X POST "https://api.day.app/${BARK_KEY}" \
-            -H "Content-Type: application/json; charset=utf-8" \
-            --data-binary @- <<EOF
-          {
-            "title": "${TITLE}",
-            "body": "${STATUS}\n${BODY}",
-            "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            "group": "SurgeRuleSet",
-            "level": "active"
-          }
-          EOF
+          # 用 jq 安全构建 JSON，避免换行和特殊字符导致推送失败
+          jq -n \
+            --arg title "$TITLE" \
+            --arg body "$STATUS"$'\n'"$BODY" \
+            --arg icon "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" \
+            --arg group "SurgeRuleSet" \
+            '{title: $title, body: $body, icon: $icon, group: $group, level: "active"}' \
+          | curl -s -X POST "https://api.day.app/${BARK_KEY}" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              -d @-
