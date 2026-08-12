@@ -1,0 +1,6 @@
+#!name=SurgeRuleSet Direct
+#!desc=国内可直连网站规则
+#!category=SurgeRuleSet
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Zheng-JD/SurgeRuleSet/main/rules/Direct.list,DIRECT

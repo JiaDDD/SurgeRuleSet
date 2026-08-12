@@ -1,0 +1,6 @@
+#!name=SurgeRuleSet Reject
+#!desc=广告与追踪拦截规则（保守策略，减少误杀）
+#!category=SurgeRuleSet
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Zheng-JD/SurgeRuleSet/main/rules/Reject.list,REJECT
