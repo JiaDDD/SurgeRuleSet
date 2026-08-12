@@ -43,13 +43,13 @@ RULE-SET,https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Reject
 ```ini
 [Rule]
 # 广告拦截
-RULE-SET,https://cdn.jsdelivr.net/gh/JiaDDD/SurgeRuleSet@main/rules/Reject.list,REJECT
+https://cdn.jsdelivr.net/gh/JiaDDD/SurgeRuleSet@main/rules/Reject.list,REJECT
 
 # 国内直连
-RULE-SET,https://cdn.jsdelivr.net/gh/JiaDDD/SurgeRuleSet@main/rules/Direct.list,DIRECT
+https://cdn.jsdelivr.net/gh/JiaDDD/SurgeRuleSet@main/rules/Direct.list,DIRECT
 
 # 需要代理的网站
-RULE-SET,https://cdn.jsdelivr.net/gh/JiaDDD/SurgeRuleSet@main/rules/Proxy.list,PROXY
+https://cdn.jsdelivr.net/gh/JiaDDD/SurgeRuleSet@main/rules/Proxy.list,PROXY
 
 # 国内 IP 直连（可选，建议保留）
 GEOIP,CN,DIRECT
