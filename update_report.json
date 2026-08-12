@@ -1,14 +1,14 @@
 {
   "success": [
     {
-      "name": "loyalsoldier-gfw",
-      "category": "Proxy",
-      "count": 4373
-    },
-    {
       "name": "gfwlist",
       "category": "Proxy",
       "count": 4331
+    },
+    {
+      "name": "loyalsoldier-gfw",
+      "category": "Proxy",
+      "count": 4373
     },
     {
       "name": "loyalsoldier-direct",
@@ -33,9 +33,9 @@
   ],
   "failed": [],
   "counts": {
-    "Proxy": 26946,
+    "Proxy": 26773,
     "Direct": 111415,
     "Reject": 163922
   },
-  "timestamp": "2026-08-12T11:47:44.426584+08:00"
+  "timestamp": "2026-08-12T18:30:49.466890+08:00"
 }

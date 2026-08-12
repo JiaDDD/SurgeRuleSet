@@ -1,5 +1,5 @@
 #!name=SurgeRuleSet Proxy
-#!desc=需要代理的国外网站规则（GFW + 补充）
+#!desc=需要代理的国外网站规则（已排除 Apple 域名）
 #!category=SurgeRuleSet
 
 [Rule]
