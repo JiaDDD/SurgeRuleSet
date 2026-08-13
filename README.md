@@ -24,17 +24,17 @@
 
 PROXY
 ```ini
-RULE-SET,https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Proxy.list
+https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Proxy.list
 ```
 
 DIRECT
 ```ini
-RULE-SET,https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Direct.list
+https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Direct.list
 ```
 
 REJECT
 ```ini
-RULE-SET,https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Reject.list
+https://raw.githubusercontent.com/JiaDDD/SurgeRuleSet/main/rules/Reject.list
 ```
 ## 配置示例
 
