@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-08-16 04:17:09 CST
-# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26788
+# Updated: 2026-08-17 04:16:22 CST
+# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
+# Total: 26789
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -19922,6 +19922,7 @@ DOMAIN-SUFFIX,rutracker.me
 DOMAIN-SUFFIX,rutracker.net
 DOMAIN-SUFFIX,rutracker.nl
 DOMAIN-SUFFIX,rutracker.org
+DOMAIN-SUFFIX,rutracker.wiki
 DOMAIN-SUFFIX,rutrk.org
 DOMAIN-SUFFIX,rutube.ru
 DOMAIN-SUFFIX,rutube.sport
