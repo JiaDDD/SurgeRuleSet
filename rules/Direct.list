@@ -1,7 +1,7 @@
 # SurgeRuleSet - DIRECT
-# Updated: 2026-08-17 04:16:22 CST
+# Updated: 2026-08-18 04:20:42 CST
 # Sources: loyalsoldier-direct
-# Total: 111421
+# Total: 111422
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,0.zone
@@ -74341,6 +74341,7 @@ DOMAIN-SUFFIX,qianvisa.com
 DOMAIN-SUFFIX,qianwa.com
 DOMAIN-SUFFIX,qianwanku.com
 DOMAIN-SUFFIX,qianwen.com
+DOMAIN-SUFFIX,qianwenai.com
 DOMAIN-SUFFIX,qianxiangbank.com
 DOMAIN-SUFFIX,qianxibj.net
 DOMAIN-SUFFIX,qianximiye.com

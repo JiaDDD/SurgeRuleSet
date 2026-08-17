@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-08-17 04:16:22 CST
-# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
-# Total: 26789
+# Updated: 2026-08-18 04:20:42 CST
+# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
+# Total: 26790
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -14130,6 +14130,7 @@ DOMAIN-SUFFIX,livesketchshare.com
 DOMAIN-SUFFIX,livestream.com
 DOMAIN-SUFFIX,livevideo.com
 DOMAIN-SUFFIX,livexxx.me
+DOMAIN-SUFFIX,livingatlas.arcgis.com
 DOMAIN-SUFFIX,livingstream.com
 DOMAIN-SUFFIX,livingyourambition.com
 DOMAIN-SUFFIX,livinno.org
