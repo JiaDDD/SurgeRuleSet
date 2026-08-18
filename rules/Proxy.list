@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-08-18 04:20:42 CST
+# Updated: 2026-08-19 04:17:51 CST
 # Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26790
+# Total: 26791
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -19956,6 +19956,7 @@ DOMAIN-SUFFIX,s1s1s1.com
 DOMAIN-SUFFIX,s2csntp.miz.nao.ac.jp
 DOMAIN-SUFFIX,s2stagehance.com
 DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com
+DOMAIN-SUFFIX,s3.dualstack.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,s81c.com
 DOMAIN-SUFFIX,s8ds5gfm.xyz
 DOMAIN-SUFFIX,sa78gs.wpc.edgecastcdn.net
