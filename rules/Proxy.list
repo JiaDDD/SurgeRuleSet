@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-08-22 04:19:54 CST
+# Updated: 2026-08-23 04:16:44 CST
 # Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
-# Total: 26803
+# Total: 26806
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -11202,6 +11202,7 @@ DOMAIN-SUFFIX,hiporn.net
 DOMAIN-SUFFIX,hippyhillscomix.com
 DOMAIN-SUFFIX,hipzoom.net
 DOMAIN-SUFFIX,hiroshimabank.co.jp
+DOMAIN-SUFFIX,historylines.net
 DOMAIN-SUFFIX,historyofdota.com
 DOMAIN-SUFFIX,historyofdota.net
 DOMAIN-SUFFIX,historyofdota.org
@@ -13684,6 +13685,7 @@ DOMAIN-SUFFIX,kitakyushubank.co.jp
 DOMAIN-SUFFIX,kiwi.jp
 DOMAIN-SUFFIX,kiwi.kz
 DOMAIN-SUFFIX,kiwibrowser.com
+DOMAIN-SUFFIX,kiwix.org
 DOMAIN-SUFFIX,kiyobank.co.jp
 DOMAIN-SUFFIX,kk-whys.co.jp
 DOMAIN-SUFFIX,kk.stream
@@ -14815,6 +14817,7 @@ DOMAIN-SUFFIX,mcdonalds.se
 DOMAIN-SUFFIX,mcdonaldsapps.com
 DOMAIN-SUFFIX,mcdonaldsarabia.com
 DOMAIN-SUFFIX,mcdonaldsparties.co.nz
+DOMAIN-SUFFIX,mceindex.com
 DOMAIN-SUFFIX,mcisco.com
 DOMAIN-SUFFIX,mcpeaceofmind.com
 DOMAIN-SUFFIX,mcrouter.net
