@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-08-23 04:16:44 CST
-# Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
-# Total: 26806
+# Updated: 2026-08-24 04:16:31 CST
+# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
+# Total: 26808
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -1867,6 +1867,7 @@ DOMAIN-SUFFIX,api.news
 DOMAIN-SUFFIX,api.palworldgame.com
 DOMAIN-SUFFIX,api.pureapk.com
 DOMAIN-SUFFIX,api.recaptcha.net
+DOMAIN-SUFFIX,api.shuaiapi.com
 DOMAIN-SUFFIX,api.steampowered.com
 DOMAIN-SUFFIX,api.viu.now.com
 DOMAIN-SUFFIX,api5.futunn.com
@@ -25384,6 +25385,7 @@ DOMAIN-SUFFIX,x18r.com
 DOMAIN-SUFFIX,x3guide.com
 DOMAIN-SUFFIX,x3vid.com
 DOMAIN-SUFFIX,x6av.com
+DOMAIN-SUFFIX,x86.fr
 DOMAIN-SUFFIX,x99av.com
 DOMAIN-SUFFIX,xamarin.com
 DOMAIN-SUFFIX,xandr.com
