@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-08-25 04:24:15 CST
-# Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
-# Total: 26808
+# Updated: 2026-08-26 04:22:42 CST
+# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
+# Total: 26807
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -11469,7 +11469,6 @@ DOMAIN-SUFFIX,hp-invent.info
 DOMAIN-SUFFIX,hp-mns.com
 DOMAIN-SUFFIX,hp-printing.com
 DOMAIN-SUFFIX,hp-webplatform.com
-DOMAIN-SUFFIX,hp-ww.com
 DOMAIN-SUFFIX,hp.company
 DOMAIN-SUFFIX,hp.io
 DOMAIN-SUFFIX,hp3d.com
