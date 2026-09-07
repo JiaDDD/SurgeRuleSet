@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-09-07 05:54:55 CST
+# Updated: 2026-09-08 06:27:57 CST
 # Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26831
+# Total: 26832
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -13861,6 +13861,7 @@ DOMAIN-SUFFIX,larsgeorge.com
 DOMAIN-SUFFIX,lasersawapp.com
 DOMAIN-SUFFIX,last.fm
 DOMAIN-SUFFIX,lastcombat.com
+DOMAIN-SUFFIX,lastfm-img.freetls.fastly.net
 DOMAIN-SUFFIX,lastfm.es
 DOMAIN-SUFFIX,lastfm.freetls.fastly.net
 DOMAIN-SUFFIX,lastpass.com
