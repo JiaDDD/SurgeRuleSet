@@ -1,7 +1,7 @@
 # SurgeRuleSet - DIRECT
-# Updated: 2026-09-09 06:18:42 CST
+# Updated: 2026-09-10 06:11:36 CST
 # Sources: loyalsoldier-direct
-# Total: 111061
+# Total: 111062
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,0.zone
@@ -104933,6 +104933,7 @@ DOMAIN-SUFFIX,yuano.cc
 DOMAIN-SUFFIX,yuanpanguoji.com
 DOMAIN-SUFFIX,yuanqiao.net
 DOMAIN-SUFFIX,yuanqiao.pw
+DOMAIN-SUFFIX,yuanqidesk.com
 DOMAIN-SUFFIX,yuanqilt.com
 DOMAIN-SUFFIX,yuanqingsh.com
 DOMAIN-SUFFIX,yuanqisenlin.com
