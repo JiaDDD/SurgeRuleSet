@@ -1,24 +1,14 @@
 {
   "success": [
     {
-      "name": "gfwlist",
-      "category": "Proxy",
-      "count": 4358
-    },
-    {
-      "name": "loyalsoldier-proxy",
-      "category": "Proxy",
-      "count": 27015
-    },
-    {
       "name": "loyalsoldier-gfw",
       "category": "Proxy",
       "count": 4400
     },
     {
-      "name": "pgl-yoyo",
-      "category": "Reject",
-      "count": 3545
+      "name": "gfwlist",
+      "category": "Proxy",
+      "count": 4341
     },
     {
       "name": "loyalsoldier-direct",
@@ -26,16 +16,26 @@
       "count": 111062
     },
     {
+      "name": "pgl-yoyo",
+      "category": "Reject",
+      "count": 3558
+    },
+    {
       "name": "loyalsoldier-reject",
       "category": "Reject",
-      "count": 186777
+      "count": 187157
+    },
+    {
+      "name": "loyalsoldier-proxy",
+      "category": "Proxy",
+      "count": 27015
     }
   ],
   "failed": [],
   "counts": {
     "Proxy": 26833,
     "Direct": 111062,
-    "Reject": 186813
+    "Reject": 187197
   },
-  "timestamp": "2026-09-11T06:12:50.535019+08:00"
+  "timestamp": "2026-09-12T06:10:05.156487+08:00"
 }
