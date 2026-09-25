@@ -1,6 +1,6 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-09-25 06:57:54 CST
-# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
+# Updated: 2026-09-26 07:01:38 CST
+# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
 # Total: 26828
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
@@ -14038,7 +14038,6 @@ DOMAIN-SUFFIX,like.com
 DOMAIN-SUFFIX,likee.com
 DOMAIN-SUFFIX,likeeapp.ru
 DOMAIN-SUFFIX,likeevideo.com
-DOMAIN-SUFFIX,likeevideo.ru
 DOMAIN-SUFFIX,likeseiyu.com
 DOMAIN-SUFFIX,liketruyen.net
 DOMAIN-SUFFIX,liketwice.com
@@ -14093,6 +14092,7 @@ DOMAIN-SUFFIX,linseysworld.com
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,linux.org
 DOMAIN-SUFFIX,linux.org.hk
+DOMAIN-SUFFIX,linux.sb
 DOMAIN-SUFFIX,linuxfoundation.org
 DOMAIN-SUFFIX,linuxfromscratch.org
 DOMAIN-SUFFIX,linuxmint.com
