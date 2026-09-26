@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-09-26 07:01:38 CST
-# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
-# Total: 26828
+# Updated: 2026-09-27 06:19:22 CST
+# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
+# Total: 26830
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -4714,6 +4714,7 @@ DOMAIN-SUFFIX,c-ij.com
 DOMAIN-SUFFIX,c-msedge.net
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
+DOMAIN-SUFFIX,c.go-mpulse.net
 DOMAIN-SUFFIX,c.mi.com
 DOMAIN-SUFFIX,c.ppy.sh
 DOMAIN-SUFFIX,c0930.com
@@ -23666,6 +23667,7 @@ DOMAIN-SUFFIX,vaultify.com
 DOMAIN-SUFFIX,vaultify.info
 DOMAIN-SUFFIX,vaultify.net
 DOMAIN-SUFFIX,vaultproject.io
+DOMAIN-SUFFIX,vava8.com
 DOMAIN-SUFFIX,vbcdn.com
 DOMAIN-SUFFIX,vbcdn.net
 DOMAIN-SUFFIX,vbejeyv.shop
