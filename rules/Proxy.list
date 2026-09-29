@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-09-29 08:08:29 CST
+# Updated: 2026-09-30 07:23:10 CST
 # Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26830
+# Total: 26836
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -9825,6 +9825,8 @@ DOMAIN-SUFFIX,gelbooru.wjcodes.com
 DOMAIN-SUFFIX,gemfire.net
 DOMAIN-SUFFIX,gemfury.com
 DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,geminiweb-pa.clients.google.com
+DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
 DOMAIN-SUFFIX,gen.lib.rus.ec
 DOMAIN-SUFFIX,gencraft.com
 DOMAIN-SUFFIX,gendai.net
@@ -11702,6 +11704,7 @@ DOMAIN-SUFFIX,huanyuju.com
 DOMAIN-SUFFIX,huaren.us
 DOMAIN-SUFFIX,huarenav.com
 DOMAIN-SUFFIX,huarenporn.com
+DOMAIN-SUFFIX,huarun.win
 DOMAIN-SUFFIX,huashangnews.com
 DOMAIN-SUFFIX,huashundg.com
 DOMAIN-SUFFIX,huaxin-lls.xyz
@@ -14961,6 +14964,7 @@ DOMAIN-SUFFIX,messytube.com
 DOMAIN-SUFFIX,met-nude.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metabora.io
 DOMAIN-SUFFIX,metabrainz.org
 DOMAIN-SUFFIX,metacloud.com
@@ -15973,6 +15977,7 @@ DOMAIN-SUFFIX,musashinobank.co.jp
 DOMAIN-SUFFIX,muscache.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musclegirlflix.com
+DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,muse.jhu.edu
 DOMAIN-SUFFIX,mushroomtrack.com
 DOMAIN-SUFFIX,mushymush.tv
@@ -17488,6 +17493,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openbook.org.tw
 DOMAIN-SUFFIX,opencas.io
 DOMAIN-SUFFIX,openclaw.ai
+DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opencritic.com
