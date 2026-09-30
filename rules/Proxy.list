@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-09-30 07:23:10 CST
-# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26836
+# Updated: 2026-10-01 07:23:41 CST
+# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
+# Total: 26837
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -9598,6 +9598,7 @@ DOMAIN-SUFFIX,futureofmaktingthings.com
 DOMAIN-SUFFIX,futureshop.ca
 DOMAIN-SUFFIX,futusg.com
 DOMAIN-SUFFIX,fuxporn.com
+DOMAIN-SUFFIX,fuyin116.com
 DOMAIN-SUFFIX,fuzokudx.com
 DOMAIN-SUFFIX,fw.cm
 DOMAIN-SUFFIX,fxcm-chinese.com
