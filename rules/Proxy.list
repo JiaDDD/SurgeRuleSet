@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-10-04 06:37:18 CST
-# Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
-# Total: 26839
+# Updated: 2026-10-05 06:40:31 CST
+# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
+# Total: 26840
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -10500,6 +10500,7 @@ DOMAIN-SUFFIX,googlemashups.com
 DOMAIN-SUFFIX,googlepagecreator.com
 DOMAIN-SUFFIX,googlephotos.com
 DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleplaycensorship.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesource.com
