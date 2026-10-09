@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-10-08 07:58:56 CST
+# Updated: 2026-10-09 08:06:25 CST
 # Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
-# Total: 26873
+# Total: 26876
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -5854,6 +5854,8 @@ DOMAIN-SUFFIX,coova.net
 DOMAIN-SUFFIX,coova.org
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,copilot-stg.com
+DOMAIN-SUFFIX,copilot-telemetry-service.githubusercontent.com
+DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
 DOMAIN-SUFFIX,copilot-workspace.githubnext.com
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copilot.microsoft.com
@@ -12287,6 +12289,8 @@ DOMAIN-SUFFIX,incestvidz.com
 DOMAIN-SUFFIX,incezt.net
 DOMAIN-SUFFIX,incloak.com
 DOMAIN-SUFFIX,inclusivegrowthscore.com
+DOMAIN-SUFFIX,incoming-telemetry.thunderbird.net
+DOMAIN-SUFFIX,incoming.telemetry.mozilla.org
 DOMAIN-SUFFIX,incommon-rsa.org
 DOMAIN-SUFFIX,incredibox.fr
 DOMAIN-SUFFIX,incy.cc
@@ -19066,7 +19070,6 @@ DOMAIN-SUFFIX,proxyrarbg.org
 DOMAIN-SUFFIX,proxz.com
 DOMAIN-SUFFIX,proyectoclubes.com
 DOMAIN-SUFFIX,prpops.com
-DOMAIN-SUFFIX,prts.plus
 DOMAIN-SUFFIX,prvbank.ru
 DOMAIN-SUFFIX,ps-exchange.com
 DOMAIN-SUFFIX,psb-ocenka.ru
