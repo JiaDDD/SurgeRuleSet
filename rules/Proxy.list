@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-10-11 07:08:51 CST
-# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26961
+# Updated: 2026-10-12 07:24:29 CST
+# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
+# Total: 26962
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -561,6 +561,7 @@ DOMAIN-SUFFIX,91se.fun
 DOMAIN-SUFFIX,91sesex.xyz
 DOMAIN-SUFFIX,91sew.xyz
 DOMAIN-SUFFIX,91sew40.buzz
+DOMAIN-SUFFIX,91short.com
 DOMAIN-SUFFIX,91vhome.com
 DOMAIN-SUFFIX,91vps.club
 DOMAIN-SUFFIX,920share.com
