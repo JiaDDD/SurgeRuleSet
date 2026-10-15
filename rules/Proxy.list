@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-10-15 06:56:21 CST
+# Updated: 2026-10-16 06:51:22 CST
 # Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 26962
+# Total: 26969
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -4537,6 +4537,7 @@ DOMAIN-SUFFIX,bs-adreview.com
 DOMAIN-SUFFIX,bs-awh.ne.jp
 DOMAIN-SUFFIX,bsappapi.cc
 DOMAIN-SUFFIX,bsappapi.com
+DOMAIN-SUFFIX,bscdnweb.com
 DOMAIN-SUFFIX,bsi.ir
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
@@ -18442,6 +18443,7 @@ DOMAIN-SUFFIX,playshow.io
 DOMAIN-SUFFIX,playshowtv.com
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,playvalorant.com
 DOMAIN-SUFFIX,playvids.com
 DOMAIN-SUFFIX,playwarcraft3.com
@@ -20264,6 +20266,7 @@ DOMAIN-SUFFIX,scb.ru
 DOMAIN-SUFFIX,scc-hamivideo.cdn.hinet.net
 DOMAIN-SUFFIX,scc.ott.hinet.net
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,scea.com
 DOMAIN-SUFFIX,scene7.com
 DOMAIN-SUFFIX,scenesource.me
 DOMAIN-SUFFIX,scharferporno.com
@@ -21075,6 +21078,7 @@ DOMAIN-SUFFIX,skysportsonline.com
 DOMAIN-SUFFIX,skysportsracing.com
 DOMAIN-SUFFIX,skytigris.cn
 DOMAIN-SUFFIX,skyvegas.com
+DOMAIN-SUFFIX,skyxvpn.com
 DOMAIN-SUFFIX,sl99mod.buzz
 DOMAIN-SUFFIX,slack-core.com
 DOMAIN-SUFFIX,slack-edge.com
@@ -21305,6 +21309,7 @@ DOMAIN-SUFFIX,sony.com.ni
 DOMAIN-SUFFIX,sony.com.pa
 DOMAIN-SUFFIX,sony.com.pe
 DOMAIN-SUFFIX,sony.com.ph
+DOMAIN-SUFFIX,sony.com.py
 DOMAIN-SUFFIX,sony.com.sg
 DOMAIN-SUFFIX,sony.com.sv
 DOMAIN-SUFFIX,sony.com.tr
@@ -21348,8 +21353,10 @@ DOMAIN-SUFFIX,sonydesign.com
 DOMAIN-SUFFIX,sonydna.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 DOMAIN-SUFFIX,sonyglobalsolutions.jp
+DOMAIN-SUFFIX,sonyinteractive.com
 DOMAIN-SUFFIX,sonykigyo.jp
 DOMAIN-SUFFIX,sonylatvija.com
+DOMAIN-SUFFIX,sonymusic.com.hk
 DOMAIN-SUFFIX,sonynetwork.co.jp
 DOMAIN-SUFFIX,sonypcl.jp
 DOMAIN-SUFFIX,sonypictures.com
