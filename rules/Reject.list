@@ -1,7 +1,7 @@
 # SurgeRuleSet - REJECT
-# Updated: 2026-10-16 06:51:22 CST
-# Sources: pgl-yoyo, loyalsoldier-reject
-# Total: 194275
+# Updated: 2026-10-17 06:26:07 CST
+# Sources: loyalsoldier-reject, pgl-yoyo
+# Total: 194293
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,0.avmarket.rs
@@ -7073,6 +7073,7 @@ DOMAIN-SUFFIX,ad.tpmn.co.kr
 DOMAIN-SUFFIX,ad.tpmn.io
 DOMAIN-SUFFIX,ad.tradertimerz.media
 DOMAIN-SUFFIX,ad.trafficmp.com
+DOMAIN-SUFFIX,ad.turn.com
 DOMAIN-SUFFIX,ad.tv2.no
 DOMAIN-SUFFIX,ad.u-car.com.tw
 DOMAIN-SUFFIX,ad.unique1static.jp
@@ -8634,6 +8635,7 @@ DOMAIN-SUFFIX,ads-image.production-public.tubi.io
 DOMAIN-SUFFIX,ads-img-al.xhscdn.com
 DOMAIN-SUFFIX,ads-img-bak.xhscdn.com
 DOMAIN-SUFFIX,ads-img.mozilla.org
+DOMAIN-SUFFIX,ads-impressions.com
 DOMAIN-SUFFIX,ads-interfaces.sc-cdn.net
 DOMAIN-SUFFIX,ads-leaseweb.appsgeyser.com
 DOMAIN-SUFFIX,ads-lite.net
@@ -8641,6 +8643,7 @@ DOMAIN-SUFFIX,ads-lite2.net
 DOMAIN-SUFFIX,ads-lot.ru
 DOMAIN-SUFFIX,ads-m.rustore.ru
 DOMAIN-SUFFIX,ads-media.gameforge.com
+DOMAIN-SUFFIX,ads-monitor.xyz
 DOMAIN-SUFFIX,ads-partners.coupang.com
 DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,ads-platform.zalo.me
@@ -10296,6 +10299,7 @@ DOMAIN-SUFFIX,adtima.net.vn
 DOMAIN-SUFFIX,adtima.org
 DOMAIN-SUFFIX,adtima.vn
 DOMAIN-SUFFIX,adtimaserver.vn
+DOMAIN-SUFFIX,adtimizer.co
 DOMAIN-SUFFIX,adtival.network
 DOMAIN-SUFFIX,adtive.com
 DOMAIN-SUFFIX,adtlgc.com
@@ -10394,6 +10398,7 @@ DOMAIN-SUFFIX,adv.bbanner.it
 DOMAIN-SUFFIX,adv.blulab.net
 DOMAIN-SUFFIX,adv.consulcesi.it
 DOMAIN-SUFFIX,adv.dailyissue.co.kr
+DOMAIN-SUFFIX,adv.donejty.pl
 DOMAIN-SUFFIX,adv.ettoday.net
 DOMAIN-SUFFIX,adv.forpsi.hu
 DOMAIN-SUFFIX,adv.freeonline.it
@@ -28418,6 +28423,7 @@ DOMAIN-SUFFIX,checkfreevideos.net
 DOMAIN-SUFFIX,checkitoutxx.com
 DOMAIN-SUFFIX,checkm8.com
 DOMAIN-SUFFIX,checkmygeo.com
+DOMAIN-SUFFIX,checkmyimp.com
 DOMAIN-SUFFIX,checkout360now.net
 DOMAIN-SUFFIX,checkoutfree.com
 DOMAIN-SUFFIX,checkru.net
@@ -31965,6 +31971,7 @@ DOMAIN-SUFFIX,controle.albinoechecoliadv.com.br
 DOMAIN-SUFFIX,controlemeta.orodrigogurgel.com.br
 DOMAIN-SUFFIX,controlexpenses.adp.ca
 DOMAIN-SUFFIX,controlhall.com
+DOMAIN-SUFFIX,controlium.net
 DOMAIN-SUFFIX,controlling.bartenbach.de
 DOMAIN-SUFFIX,controlsgc.prisacom.com
 DOMAIN-SUFFIX,controlslaverystuffing.com
@@ -32145,6 +32152,7 @@ DOMAIN-SUFFIX,cookies.siemens.com
 DOMAIN-SUFFIX,cookies.us.jll.com
 DOMAIN-SUFFIX,cookies.wpcarey.com
 DOMAIN-SUFFIX,cookiestorybook.com
+DOMAIN-SUFFIX,cookiesurfer.com
 DOMAIN-SUFFIX,cookiewarden.com
 DOMAIN-SUFFIX,cookiex.ngd.yahoo.com
 DOMAIN-SUFFIX,cooking.cookinglife.es
@@ -44512,6 +44520,7 @@ DOMAIN-SUFFIX,discoursefulfilledauditory.com
 DOMAIN-SUFFIX,discourseoxidizingtransfer.com
 DOMAIN-SUFFIX,discousaphagiamorgan.qpon
 DOMAIN-SUFFIX,discover-path.com
+DOMAIN-SUFFIX,discover-tech.io
 DOMAIN-SUFFIX,discover.absciex.com
 DOMAIN-SUFFIX,discover.absciex.com.cn
 DOMAIN-SUFFIX,discover.amdesign.com
@@ -73439,6 +73448,7 @@ DOMAIN-SUFFIX,impassableoffend.com
 DOMAIN-SUFFIX,impassableretainerexplained.com
 DOMAIN-SUFFIX,impassioned-vacation.com
 DOMAIN-SUFFIX,impbid.com
+DOMAIN-SUFFIX,impchkdsp.com
 DOMAIN-SUFFIX,impdsp.meituan.com
 DOMAIN-SUFFIX,impeccable-message.pro
 DOMAIN-SUFFIX,impeccablebrain.pro
@@ -91090,6 +91100,7 @@ DOMAIN-SUFFIX,lrwprzvusazvh.website
 DOMAIN-SUFFIX,lrzgppjhqutnr.space
 DOMAIN-SUFFIX,lrziloubgdcfe.online
 DOMAIN-SUFFIX,ls.dycdn.net
+DOMAIN-SUFFIX,ls.hit.gemius.pl
 DOMAIN-SUFFIX,ls.luxeshineprofessional.co.nz
 DOMAIN-SUFFIX,ls.srvcs.tumblr.com
 DOMAIN-SUFFIX,lsacomban.com
@@ -101497,6 +101508,7 @@ DOMAIN-SUFFIX,mtrs.fluorconstructors.ca
 DOMAIN-SUFFIX,mtrs.fluorconstructors.com
 DOMAIN-SUFFIX,mtrs.fluoruniversity.com
 DOMAIN-SUFFIX,mtrs.virtainc.com
+DOMAIN-SUFFIX,mtrtb.com
 DOMAIN-SUFFIX,mtrvx.closurelondon.com
 DOMAIN-SUFFIX,mtrxxx.betterabooks.com
 DOMAIN-SUFFIX,mtrxxx.vitalgummy.com
@@ -105880,6 +105892,7 @@ DOMAIN-SUFFIX,nutentertainintermediate.com
 DOMAIN-SUFFIX,nutga.com
 DOMAIN-SUFFIX,nutletsbromian.qpon
 DOMAIN-SUFFIX,nutlikecrooch.cfd
+DOMAIN-SUFFIX,nutralove.co
 DOMAIN-SUFFIX,nutri.tamararolim.com
 DOMAIN-SUFFIX,nutriblendpro-ss.checkoutera.com
 DOMAIN-SUFFIX,nutricesirene.qpon
@@ -112970,6 +112983,7 @@ DOMAIN-SUFFIX,pixel.spotify.com
 DOMAIN-SUFFIX,pixel.sprinklr.com
 DOMAIN-SUFFIX,pixel.staging.tree.com
 DOMAIN-SUFFIX,pixel.staticworld.net
+DOMAIN-SUFFIX,pixel.tapad.com
 DOMAIN-SUFFIX,pixel.tatpek.com
 DOMAIN-SUFFIX,pixel.teravi.com.br
 DOMAIN-SUFFIX,pixel.thenexusgroups.org
@@ -113323,6 +113337,7 @@ DOMAIN-SUFFIX,plastica.starkmkt.com
 DOMAIN-SUFFIX,plasticdamage.com
 DOMAIN-SUFFIX,plasticker.fr
 DOMAIN-SUFFIX,plastleislike.com
+DOMAIN-SUFFIX,platc-tester.com
 DOMAIN-SUFFIX,platchwwraojk.online
 DOMAIN-SUFFIX,plateau77.com
 DOMAIN-SUFFIX,platesskull.com
@@ -114399,6 +114414,7 @@ DOMAIN-SUFFIX,poweredlock.com
 DOMAIN-SUFFIX,powerfulblends.com
 DOMAIN-SUFFIX,powerfulcopper.com
 DOMAIN-SUFFIX,powerintruso.cyou
+DOMAIN-SUFFIX,powerium.net
 DOMAIN-SUFFIX,powerlinks.com
 DOMAIN-SUFFIX,poweroff.pt
 DOMAIN-SUFFIX,powers.isandomedia.co.za
@@ -123968,6 +123984,7 @@ DOMAIN-SUFFIX,s.ceasuripersonalizate.com
 DOMAIN-SUFFIX,s.ceramikker.pl
 DOMAIN-SUFFIX,s.cirasync.com
 DOMAIN-SUFFIX,s.clearskyrhythm.com
+DOMAIN-SUFFIX,s.click.aliexpress.com
 DOMAIN-SUFFIX,s.clickability.com
 DOMAIN-SUFFIX,s.clicktex.ru
 DOMAIN-SUFFIX,s.clientes.construrama.com
@@ -180870,6 +180887,7 @@ DOMAIN-SUFFIX,vok1jp7qxx9hwoyt2g.cfd
 DOMAIN-SUFFIX,vokegwzgjivii.online
 DOMAIN-SUFFIX,vokut.com
 DOMAIN-SUFFIX,volagenabal.qpon
+DOMAIN-SUFFIX,volasim.com
 DOMAIN-SUFFIX,volatacache.cfd
 DOMAIN-SUFFIX,volatileprofit.com
 DOMAIN-SUFFIX,volatilevessel.com
