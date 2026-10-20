@@ -1,7 +1,7 @@
 # SurgeRuleSet - DIRECT
-# Updated: 2026-10-20 07:16:01 CST
+# Updated: 2026-10-21 06:53:33 CST
 # Sources: loyalsoldier-direct
-# Total: 110418
+# Total: 110420
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,0.zone
@@ -85708,6 +85708,8 @@ DOMAIN-SUFFIX,sztxsz.com
 DOMAIN-SUFFIX,szty56.com
 DOMAIN-SUFFIX,sztz.org
 DOMAIN-SUFFIX,sztzzs.com
+DOMAIN-SUFFIX,szu.app
+DOMAIN-SUFFIX,szu.moe
 DOMAIN-SUFFIX,szuavia.org
 DOMAIN-SUFFIX,szudad.com
 DOMAIN-SUFFIX,szunionlab.com
