@@ -13,7 +13,7 @@
     {
       "name": "loyalsoldier-proxy",
       "category": "Proxy",
-      "count": 27214
+      "count": 27240
     },
     {
       "name": "loyalsoldier-direct",
@@ -23,19 +23,19 @@
     {
       "name": "pgl-yoyo",
       "category": "Reject",
-      "count": 3572
+      "count": 3573
     },
     {
       "name": "loyalsoldier-reject",
       "category": "Reject",
-      "count": 199567
+      "count": 199933
     }
   ],
   "failed": [],
   "counts": {
-    "Proxy": 27017,
+    "Proxy": 27043,
     "Direct": 110420,
-    "Reject": 199610
+    "Reject": 199976
   },
-  "timestamp": "2026-10-22T06:58:50.864632+08:00"
+  "timestamp": "2026-10-23T06:55:43.144517+08:00"
 }
