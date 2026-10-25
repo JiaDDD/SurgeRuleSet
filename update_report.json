@@ -1,11 +1,6 @@
 {
   "success": [
     {
-      "name": "loyalsoldier-proxy",
-      "category": "Proxy",
-      "count": 27241
-    },
-    {
       "name": "gfwlist",
       "category": "Proxy",
       "count": 4400
@@ -13,29 +8,35 @@
     {
       "name": "loyalsoldier-gfw",
       "category": "Proxy",
-      "count": 4434
+      "count": 4443
+    },
+    {
+      "name": "loyalsoldier-proxy",
+      "category": "Proxy",
+      "count": 27245
     },
     {
       "name": "loyalsoldier-direct",
       "category": "Direct",
-      "count": 110137
-    },
-    {
-      "name": "pgl-yoyo",
-      "category": "Reject",
-      "count": 3563
+      "count": 110143
     },
     {
       "name": "loyalsoldier-reject",
       "category": "Reject",
-      "count": 200290
+      "count": 200546
     }
   ],
-  "failed": [],
+  "failed": [
+    {
+      "name": "pgl-yoyo",
+      "category": "Reject",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
   "counts": {
-    "Proxy": 27052,
-    "Direct": 110137,
-    "Reject": 200334
+    "Proxy": 27050,
+    "Direct": 110143,
+    "Reject": 200411
   },
-  "timestamp": "2026-10-25T06:12:25.716615+08:00"
+  "timestamp": "2026-10-26T06:14:45.898366+08:00"
 }
