@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-11-03 09:57:06 CST
-# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
-# Total: 27072
+# Updated: 2026-11-04 08:19:52 CST
+# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
+# Total: 27074
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -3316,6 +3316,7 @@ DOMAIN-SUFFIX,beget.app
 DOMAIN-SUFFIX,beget.cloud
 DOMAIN-SUFFIX,beget.com
 DOMAIN-SUFFIX,beget.de
+DOMAIN-SUFFIX,beget.email
 DOMAIN-SUFFIX,beget.hosting
 DOMAIN-SUFFIX,beget.pro
 DOMAIN-SUFFIX,beget.ru
@@ -3539,6 +3540,7 @@ DOMAIN-SUFFIX,bild.de
 DOMAIN-SUFFIX,bili2.cc
 DOMAIN-SUFFIX,bili888.com
 DOMAIN-SUFFIX,bili999.com
+DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,biliplus.com
 DOMAIN-SUFFIX,biliworld.com
 DOMAIN-SUFFIX,bill-safe.com
