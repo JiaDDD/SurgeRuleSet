@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-11-04 08:19:52 CST
-# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 27074
+# Updated: 2026-11-05 08:41:16 CST
+# Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
+# Total: 27079
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -14200,6 +14200,9 @@ DOMAIN-SUFFIX,lilaoshibushinilaoshi.com
 DOMAIN-SUFFIX,lilhumpers.com
 DOMAIN-SUFFIX,liliav.com
 DOMAIN-SUFFIX,lilith-soft.com
+DOMAIN-SUFFIX,limbuscompany.global
+DOMAIN-SUFFIX,limbuscompanyapi.com
+DOMAIN-SUFFIX,limbuscompanycdn.org
 DOMAIN-SUFFIX,limedia.tw
 DOMAIN-SUFFIX,limelight.com
 DOMAIN-SUFFIX,limer.tw
@@ -19194,6 +19197,7 @@ DOMAIN-SUFFIX,projectbaseline.com
 DOMAIN-SUFFIX,projectcircuitbreaker.com
 DOMAIN-SUFFIX,projecteuclid.org
 DOMAIN-SUFFIX,projectjav.com
+DOMAIN-SUFFIX,projectmoon.studio
 DOMAIN-SUFFIX,projectmurphy.net
 DOMAIN-SUFFIX,projectpoint.com
 DOMAIN-SUFFIX,projectpoint.net
@@ -21165,6 +21169,7 @@ DOMAIN-SUFFIX,skills.sh
 DOMAIN-SUFFIX,skillshare.com
 DOMAIN-SUFFIX,skimtube.com
 DOMAIN-SUFFIX,skinstrip.net
+DOMAIN-SUFFIX,skinswap.com
 DOMAIN-SUFFIX,skokka.com
 DOMAIN-SUFFIX,sksarab.top
 DOMAIN-SUFFIX,skunkgirl.cc
