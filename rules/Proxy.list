@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-11-10 10:30:02 CST
-# Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
-# Total: 27082
+# Updated: 2026-11-11 08:23:23 CST
+# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
+# Total: 27087
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -10700,6 +10700,8 @@ DOMAIN-SUFFIX,gr-assets.com
 DOMAIN-SUFFIX,grabhentai.com
 DOMAIN-SUFFIX,grabpussy.com
 DOMAIN-SUFFIX,gradeuptube.com
+DOMAIN-SUFFIX,grafana.com
+DOMAIN-SUFFIX,grafana.net
 DOMAIN-SUFFIX,grafolio.com
 DOMAIN-SUFFIX,graias.com
 DOMAIN-SUFFIX,graiasmovies.com
@@ -19437,6 +19439,7 @@ DOMAIN-SUFFIX,quanben.io
 DOMAIN-SUFFIX,quatrowireless.com
 DOMAIN-SUFFIX,quatrum.com.br
 DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,questionablequesting.com
 DOMAIN-SUFFIX,questvisual.com
 DOMAIN-SUFFIX,quicinc.com
 DOMAIN-SUFFIX,quickbook.com.br
@@ -21533,6 +21536,7 @@ DOMAIN-SUFFIX,soyinyj.top
 DOMAIN-SUFFIX,soyjak.party
 DOMAIN-SUFFIX,soyjak.st
 DOMAIN-SUFFIX,sp.cool
+DOMAIN-SUFFIX,spacebattles.com
 DOMAIN-SUFFIX,spaceexplored.com
 DOMAIN-SUFFIX,spaceforce.mil
 DOMAIN-SUFFIX,spacely.com.au
@@ -23815,6 +23819,7 @@ DOMAIN-SUFFIX,v.ps
 DOMAIN-SUFFIX,v.recipes
 DOMAIN-SUFFIX,v2.help
 DOMAIN-SUFFIX,v2.hysteria.network
+DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org
 DOMAIN-SUFFIX,v2ph.com
