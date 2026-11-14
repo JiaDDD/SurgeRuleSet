@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-11-13 08:51:08 CST
-# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
-# Total: 27087
+# Updated: 2026-11-14 08:37:04 CST
+# Sources: loyalsoldier-gfw, gfwlist, loyalsoldier-proxy
+# Total: 27088
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -400,6 +400,7 @@ DOMAIN-SUFFIX,51lieqi.com
 DOMAIN-SUFFIX,51luoben.com
 DOMAIN-SUFFIX,51luoli.info
 DOMAIN-SUFFIX,51mh.app
+DOMAIN-SUFFIX,51papaya.com
 DOMAIN-SUFFIX,51pincha.cc
 DOMAIN-SUFFIX,51tuqiang.com
 DOMAIN-SUFFIX,520aa.tv
