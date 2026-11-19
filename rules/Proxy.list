@@ -1,6 +1,6 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-11-18 10:01:07 CST
-# Sources: gfwlist, loyalsoldier-proxy, loyalsoldier-gfw
+# Updated: 2026-11-19 09:38:11 CST
+# Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
 # Total: 27095
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
@@ -7892,6 +7892,7 @@ DOMAIN-SUFFIX,elephanttube.com
 DOMAIN-SUFFIX,elephanttubenew.com
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabsusercontent.com
 DOMAIN-SUFFIX,elgaronline.com
 DOMAIN-SUFFIX,elgoog.im
 DOMAIN-SUFFIX,elib.maruzen.co.jp
@@ -26463,7 +26464,6 @@ DOMAIN-SUFFIX,yandexdataschool.ru
 DOMAIN-SUFFIX,yandexgo.com
 DOMAIN-SUFFIX,yandexlyceum.ru
 DOMAIN-SUFFIX,yandexwebcache.net
-DOMAIN-SUFFIX,yandexwebcache.org
 DOMAIN-SUFFIX,yango-b2b.com
 DOMAIN-SUFFIX,yango-team.com
 DOMAIN-SUFFIX,yango-tech.com
