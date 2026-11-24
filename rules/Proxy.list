@@ -1,7 +1,7 @@
 # SurgeRuleSet - PROXY
-# Updated: 2026-11-23 08:33:54 CST
+# Updated: 2026-11-24 12:33:57 CST
 # Sources: gfwlist, loyalsoldier-gfw, loyalsoldier-proxy
-# Total: 27006
+# Total: 27007
 # Repo: https://github.com/Zheng-JD/SurgeRuleSet
 #
 DOMAIN-SUFFIX,000webhost.com
@@ -9925,6 +9925,7 @@ DOMAIN-SUFFIX,gemfury.com
 DOMAIN-SUFFIX,gemini.com
 DOMAIN-SUFFIX,geminiweb-pa.clients.google.com
 DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
+DOMAIN-SUFFIX,gemma.ai
 DOMAIN-SUFFIX,gen.lib.rus.ec
 DOMAIN-SUFFIX,genbank.ru
 DOMAIN-SUFFIX,gencraft.com
