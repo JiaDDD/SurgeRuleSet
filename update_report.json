@@ -23,19 +23,19 @@
     {
       "name": "pgl-yoyo",
       "category": "Reject",
-      "count": 3558
+      "count": 3560
     },
     {
       "name": "loyalsoldier-reject",
       "category": "Reject",
-      "count": 203998
+      "count": 204388
     }
   ],
   "failed": [],
   "counts": {
     "Proxy": 27023,
     "Direct": 110152,
-    "Reject": 204045
+    "Reject": 204436
   },
-  "timestamp": "2026-11-26T10:36:09.323097+08:00"
+  "timestamp": "2026-11-27T10:36:42.572835+08:00"
 }
